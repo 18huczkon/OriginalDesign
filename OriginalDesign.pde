@@ -1,13 +1,13 @@
 //Nina Huczko
 //Original Design
 //September 12,2016
-int sunY = 0;
+float sunY = 0;
 float sunW = 200;
 float sunL = 200;
 float backgroundRed = 83;
 float backgroundGreen = 180;
 float backgroundBlue = 216;
-int moonY = -400;
+float moonY = -400;
 void setup()
 {
   size(800,800);
@@ -24,7 +24,7 @@ void draw()
   backgroundRed = backgroundRed+.1;
   backgroundGreen = backgroundGreen-1;
   backgroundBlue = backgroundBlue-1;
- if (sunY >920 && moonY <= 150)
+ if (sunY >920.00 && moonY <= 150.00)
  {
    backgroundRed = backgroundRed - 5;
    backgroundGreen = backgroundGreen - 1;
