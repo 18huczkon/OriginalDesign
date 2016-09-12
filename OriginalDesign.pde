@@ -2,12 +2,12 @@
 //Original Design
 //September 12,2016
 int sunY = 0;
-float sunW = 200;
-float sunL = 200;
-float backgroundRed = 83;
-float backgroundGreen = 180;
-float backgroundBlue = 216;
-float moonY = -400;
+int sunW = 200;
+int sunL = 200;
+int backgroundRed = 83;
+int backgroundGreen = 180;
+int backgroundBlue = 216;
+int moonY = -400;
 void setup()
 {
   size(800,800);
@@ -19,12 +19,12 @@ void tick(){
   hills();
   tree();
   sunY = sunY+1;
-  sunW = sunW+.5;
-  sunL = sunL+.5;
-  backgroundRed = backgroundRed+.1;
+  sunW = sunW+1;
+  sunL = sunL+1;
+  backgroundRed = backgroundRed+1;
   backgroundGreen = backgroundGreen-1;
   backgroundBlue = backgroundBlue-1;
- if (sunY >920.00 && moonY <= 150.00)
+ if (sunY >920 && moonY <= 150)
  {
    backgroundRed = backgroundRed - 5;
    backgroundGreen = backgroundGreen - 1;
