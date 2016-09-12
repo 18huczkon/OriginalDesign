@@ -1,13 +1,13 @@
 //Nina Huczko
 //Original Design
 //September 12,2016
-float sunY = 0;
+int sunY = 0;
 float sunW = 200;
 float sunL = 200;
 float backgroundRed = 83;
 float backgroundGreen = 180;
 float backgroundBlue = 216;
-float moonY = -400;
+int moonY = -400;
 void setup()
 {
   size(800,800);
