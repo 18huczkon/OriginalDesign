@@ -64,7 +64,7 @@ void moon()
 {
   noStroke();
   fill(#CEC6C7);
-  arc(400,moonY,200,200,HALF_PI, PI+HALF_PI, CHORD);
+  arc(400,moonY,200,200,HALF_PI, PI+HALF_PI);
 }
  void stars()
 {
